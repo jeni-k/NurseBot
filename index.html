@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Health Assistant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hero"> <p >Welcome to our Nurse Lite</p></div>
+   
+    <div class="health-options">
+        <div class="health-box" id="lungs-check">
+            <h2>Check Your Lungs</h2>
+            <p>Analyze lung health with AI.</p>
+        </div>
+        <div class="health-box" id="skin-cancer-check">
+            <h2>Skin Cancer Detection</h2>
+            <p>Detect skin issues with precision.</p>
+        </div>
+    </div>
+<div>
+    <p class="about">AI-powered early detection for skin cancer and lung issues, integrated with a helpful AI chatbot assistant, all in one app.</p>
+</div>
+    <section class="chat-window">
+        <div class="header">
+            <button class="close">×</button>
+        </div>
+        <div class="chat">
+            <div class="model">
+                <p>Hi! I'm your AI Health Assistant. Ask about health or upload a prescription/X-ray for analysis.</p>
+            </div>
+        </div>
+        <div class="input-area">
+            <input placeholder="Ask me anything..." type="text">
+            <label class="upload-btn" title="Upload">
+                <input type="file" accept="image/*" style="display: none;" id="image-upload">
+                <img src="upload-button.png" alt="upload">
+            </label>
+            <button class="stop-btn" title="Stop">Stop</button>
+            <button class="send-btn" title="Send">
+                <img src="send-icon.png" alt="send">
+            </button>
+        </div>
+    </section>
+
+    <div class="chat-button">
+        <img src="chat-icon.png" alt="start chat">
+    </div>
+    
+    <script type="importmap">
+        {
+          "imports": {
+            "@google/generative-ai": "https://esm.run/@google/generative-ai",
+            "@tensorflow/tfjs": "https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"
+          }
+        }
+    </script>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
