@@ -15,6 +15,10 @@ Nurse Lite is a lightweight, multilingual, offline-first Progressive Web App (PW
 
 ---
 
+## Workflow
+![image](https://github.com/user-attachments/assets/e26dfd1b-3237-453a-bb75-4a603e460cf7)
+
+---
 
 ## Unique Value Proposition
 - AI-Powered In-Browser Diagnostics
@@ -33,12 +37,7 @@ Nurse Lite is a lightweight, multilingual, offline-first Progressive Web App (PW
 ---
 
 ## 🔍 Tech Stack
-- **Frontend**: React + Tailwind CSS (PWA-ready)
-- **ML Models**: TensorFlow.js & ONNX  
-  - ViT for skin lesion classification  
-  - CNN for lung condition detection from cough
-- **Audio Preprocessing**: MFCC → Spectrograms  
-- **Optimized for**: Offline inference, fast loading, real-time response
+![image](https://github.com/user-attachments/assets/124dd158-8247-4041-a478-ef7fc5d9de07)
 
 ---
 
