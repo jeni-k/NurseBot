@@ -1,6 +1,8 @@
 # 🤖 Nurse Lite  
 **Your Offline AI Health Assistant for Skin & Lung Diagnostics**
 (A chatbot + detector, offline-friendly)
+---
+(Please skip over to the end, to view the demo videos, presentation and setup/deployment details)
 
 Nurse Lite is a lightweight, multilingual, offline-first Progressive Web App (PWA) that uses AI to assist users in early detection of **skin** and **respiratory** conditions. Built for accessibility in low-resource settings, it runs directly in the browser — **no internet required after setup**.
 
@@ -62,4 +64,6 @@ npm run dev
 
 ---
 # View our presentation here : https://www.canva.com/design/DAGkbthC1IQ/G4fRc2bUoGxwMlxwYMvV3Q/edit?utm_content=DAGkbthC1IQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+---
+# View the demo videos here : https://drive.google.com/drive/u/1/folders/1Ao7fi0wXpS_pVaGQe71rcKlcM-EwBU_7
 ---
